@@ -8,6 +8,7 @@ public class Pausa : MonoBehaviour
     Canvas canvas;
     private bool musica;
     
+    
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +27,18 @@ public class Pausa : MonoBehaviour
             active = !active;
             canvas.enabled = active;
             Time.timeScale = (active) ? 0 : 1f;
-            AudioListener.volume = 0;
+           
         }
+
+        if (Input.GetKeyDown("p"))
+
+            musica = !musica;
+        AudioListener.volume = (musica) ? 0 : 1f;
+            
+     }
         
         
             
-     } 
+      
     
 }

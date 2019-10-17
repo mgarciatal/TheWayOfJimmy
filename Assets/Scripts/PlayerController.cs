@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour
         }
 
         Cam.transform.position = Vector3.Lerp(Cam.transform.position, CamPost.transform.position, 0.1f);
+
+       
     }
             
 
