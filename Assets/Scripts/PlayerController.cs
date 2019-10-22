@@ -5,13 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Cam;
+    Canvas Win;
+    GameObject meta;
     public GameObject CamPost;
+    
    
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Win = GetComponent<Canvas>();
+        Win.enabled = false;
+
     }
 
     // Update is called once per frame
@@ -47,7 +52,18 @@ public class PlayerController : MonoBehaviour
 
        
     }
+
+    private void OnTriggerEnter(Collider obj)
+    {
+        if (obj.tag =="casa")
+        {
             
+            Win.enabled = true;
+
+            AudioListener.volume = 0;
+        }
+    }
+
 
 }
 
