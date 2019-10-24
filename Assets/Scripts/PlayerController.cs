@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Cam;
-    //Canvas Win;
-    //GameObject Casa;
+    
     public GameObject CamPost;
     
    
@@ -14,12 +13,13 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Win = GetComponent<Canvas>();
-      //  Win.enabled = false;
+       
 
     }
 
     // Update is called once per frame
+
+        
     void Update()
     {
         if (Input.GetKey(KeyCode.W))
@@ -47,23 +47,13 @@ public class PlayerController : MonoBehaviour
                 CamPost.transform.SetParent(transform);
             }
         }
-
+        
         Cam.transform.position = Vector3.Lerp(Cam.transform.position, CamPost.transform.position, 0.1f);
 
        
     }
 
-   /* private void OnTriggerEnter(Collider obj)
-    {
-        if (obj.tag =="casa")
-        {
-            
-            Win.enabled = true;
-
-            AudioListener.volume = 0;
-        }
-    }
-    */
+   
 
 
 }

@@ -9,8 +9,7 @@ public class Meta : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Win = GetComponent<Canvas>();
-          Win.enabled = false;
+        
     }
 
     // Update is called once per frame

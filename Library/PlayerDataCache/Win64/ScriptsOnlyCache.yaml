@@ -4,7 +4,9 @@ ScriptsOnlyBuild:
     - Animation_Test
     - CameraLogic
     - EnemyController
+    - Escape
     - LevelManager
+    - Meta
     - Pausa
     - PlayerController
     UnityEditor.Graphs.dll:
@@ -59,23 +61,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9662}
+      Script: {instanceID: 9664}
     - Class: 114
-      Script: {instanceID: 9810}
+      Script: {instanceID: 9812}
     - Class: 114
-      Script: {instanceID: 9850}
+      Script: {instanceID: 9852}
     - Class: 114
-      Script: {instanceID: 10138}
+      Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 10228}
+      Script: {instanceID: 10230}
     - Class: 114
-      Script: {instanceID: 10566}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 11006}
+      Script: {instanceID: 11008}
     - Class: 114
-      Script: {instanceID: 11300}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -109,8 +111,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -138,27 +138,35 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9662}
+      Script: {instanceID: 9664}
     - Class: 114
-      Script: {instanceID: 9810}
+      Script: {instanceID: 9812}
     - Class: 114
-      Script: {instanceID: 9850}
+      Script: {instanceID: 9852}
     - Class: 114
-      Script: {instanceID: 10138}
+      Script: {instanceID: 10140}
     - Class: 114
-      Script: {instanceID: 10192}
+      Script: {instanceID: 10194}
     - Class: 114
-      Script: {instanceID: 10228}
+      Script: {instanceID: 10230}
     - Class: 114
-      Script: {instanceID: 11006}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 11098}
+      Script: {instanceID: 10900}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 11008}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11100}
     - Class: 114
-      Script: {instanceID: 11372}
+      Script: {instanceID: 11228}
+    - Class: 114
+      Script: {instanceID: 11280}
+    - Class: 114
+      Script: {instanceID: 11304}
+    - Class: 114
+      Script: {instanceID: 11356}
+    - Class: 114
+      Script: {instanceID: 11376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -170,6 +178,8 @@ ScriptsOnlyBuild:
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -482,12 +492,6 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Exit
-  - hash:
-      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -522,6 +526,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Escape
   - hash:
       serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
@@ -564,6 +574,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 8e1991f0f32f0d9299d740b1db25b317
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Meta
   - hash:
       serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
@@ -676,4 +692,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Nivell1.unity
-  playerPath: C:/Users/mique/Downloads/The Way Of Jimmy.exe
+  playerPath: C:/Users/mique/Downloads/VideoJoc Unity/The Way Of Jimmy.exe
