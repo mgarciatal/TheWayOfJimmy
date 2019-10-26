@@ -5,8 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Cam;
-    
+   
     public GameObject CamPost;
+    
     
    
 
@@ -21,7 +22,11 @@ public class PlayerController : MonoBehaviour
 
         
     void Update()
+    
     {
+
+       
+        
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(new Vector3(0, 0, 0.1f));

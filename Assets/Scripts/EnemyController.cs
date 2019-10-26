@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float movementSpeed = 1f;
+    public float movementSpeed = 0.5f;
     public float rotationSpeed = 1f;
 
     Vector3 targetPosition;
@@ -39,7 +39,7 @@ public class EnemyController : MonoBehaviour
             
         transform.position += transform.forward * movementSpeed * Time.deltaTime;
 
-        Debug.DrawLine(transform.position, targetPosition, Color.green);
+        
         
     }
 }
