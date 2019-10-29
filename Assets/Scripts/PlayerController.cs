@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject Cam;
-   
     public GameObject CamPost;
+
     
     
    
@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+
 
     }
 
@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
         
         Cam.transform.position = Vector3.Lerp(Cam.transform.position, CamPost.transform.position, 0.1f);
 
-       
+        
     }
 
    

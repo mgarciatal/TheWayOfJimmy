@@ -2,9 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Animation_Test
-    - CameraLogic
     - EnemyController
     - Escape
+    - KO
     - LevelManager
     - Meta
     - Pausa
@@ -50,15 +50,25 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 9664}
@@ -69,18 +79,22 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10140}
     - Class: 114
+      Script: {instanceID: 10194}
+    - Class: 114
       Script: {instanceID: 10230}
     - Class: 114
       Script: {instanceID: 10568}
     - Class: 114
       Script: {instanceID: 11008}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11356}
+      Script: {instanceID: 11358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -110,6 +124,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
@@ -156,17 +172,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11008}
     - Class: 114
-      Script: {instanceID: 11100}
+      Script: {instanceID: 11090}
     - Class: 114
-      Script: {instanceID: 11228}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 11280}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11356}
+      Script: {instanceID: 11358}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11378}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -174,8 +190,6 @@ ScriptsOnlyBuild:
     - Class: 136
       Script: {instanceID: 0}
     - Class: 137
-      Script: {instanceID: 0}
-    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -558,6 +572,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: da01a078b0135022c9151c608722eb49
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KO
+  - hash:
+      serializedVersion: 2
       Hash: 48aa7e3a10ad49e34c99883f1c252b8d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -692,4 +712,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Nivell1.unity
-  playerPath: C:/Users/mique/Downloads/VideoJoc Unity/The Way Of Jimmy.exe
+  playerPath: D:/13semestre/PAC2 TFG Videojocs/EXE/The Way Of Jimmy.exe

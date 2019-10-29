@@ -67,6 +67,7 @@
     <Compile Include="Assets\Puasa.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Escape.cs" />
+    <Compile Include="Assets\Scripts\KO.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Meta.cs" />
     <Compile Include="Assets\Scripts\Pausa.cs" />
