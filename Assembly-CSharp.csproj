@@ -65,13 +65,16 @@
   <ItemGroup>
     <Compile Include="Assets\amusedART\StoneMonster\Script\Animation_Test.cs" />
     <Compile Include="Assets\Puasa.cs" />
+    <Compile Include="Assets\Scripts\Document.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Escape.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\KO.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\Meta.cs" />
     <Compile Include="Assets\Scripts\Pausa.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Story.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\PlayerControl.cs" />
@@ -80,6 +83,7 @@
     <Compile Include="Assets\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
     <None Include="Assets\Readme.txt" />
     <None Include="Assets\Simple city plain\Read_me.txt" />
+    <None Include="Assets\Clipboard\ReadMe\ReadMe.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/mique/OneDrive/Escritorio/The Way Of Jimmy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

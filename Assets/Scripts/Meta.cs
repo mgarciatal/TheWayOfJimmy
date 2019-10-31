@@ -27,7 +27,7 @@ public class Meta : MonoBehaviour
             Win.enabled = true;
 
             Time.timeScale = 0;
-            AudioListener.volume = 0;
+            
         }
     }
 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - casa
+  - Item
   layers:
   - Default
   - TransparentFX

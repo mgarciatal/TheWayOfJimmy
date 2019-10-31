@@ -31,9 +31,12 @@ public class Pausa : MonoBehaviour
         }
 
         if (Input.GetKeyDown("p"))
+        {
 
             musica = !musica;
-        AudioListener.volume = (musica) ? 0 : 1f;
+            AudioListener.volume = (musica) ? 0 : 1f;
+
+        }
             
      }
         
