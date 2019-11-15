@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public GameObject Cam;
     public GameObject CamPost;
 
+    public Animator Anim;
+    
     
     
    
@@ -25,20 +27,21 @@ public class PlayerController : MonoBehaviour
     
     {
 
-       
-        
         if (Input.GetKey(KeyCode.W))
         {
+            Anim.SetTrigger("walk");
             transform.Translate(new Vector3(0, 0, 0.1f));
         }
         else {
             if (Input.GetKey(KeyCode.S))
             {
+                Anim.SetTrigger("walk");
                 transform.Translate(new Vector3(0, 0, -0.1f));
             }
         }
         if (Input.GetKey(KeyCode.D))
         {
+            Anim.SetTrigger("walk");
             CamPost.transform.SetParent(null);
             transform.Rotate(new Vector3(0, 5.0f, 0));
             CamPost.transform.SetParent(transform);
@@ -47,6 +50,7 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A))
             {
+                Anim.SetTrigger("walk");
                 CamPost.transform.SetParent(null);
                 transform.Rotate(new Vector3(0, -5.0f, 0));
                 CamPost.transform.SetParent(transform);

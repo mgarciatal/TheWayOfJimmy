@@ -3,7 +3,9 @@ using System.Collections.Generic;
 
 public class PlayerControl : MonoBehaviour {
 
-   
+    public GameObject Cam;
+    public GameObject CamPost;
+
     private enum ControlMode
     {
         Tank,
@@ -107,6 +109,8 @@ public class PlayerControl : MonoBehaviour {
         }
 
         m_wasGrounded = m_isGrounded;
+
+      
     }
 
     private void TankUpdate()
