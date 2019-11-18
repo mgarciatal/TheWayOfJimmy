@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject Cam;
     public GameObject CamPost;
-
     public Animator Anim;
+    
     
     
     
@@ -29,19 +29,19 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            Anim.SetTrigger("walk");
-            transform.Translate(new Vector3(0, 0, 0.1f));
+            Anim.Play("run");
+            transform.Translate(new Vector3(0, 0, 0.04f));
         }
         else {
             if (Input.GetKey(KeyCode.S))
             {
-                Anim.SetTrigger("walk");
-                transform.Translate(new Vector3(0, 0, -0.1f));
+                Anim.Play("backwards-run");
+                transform.Translate(new Vector3(0, 0, -0.04f));
             }
         }
         if (Input.GetKey(KeyCode.D))
         {
-            Anim.SetTrigger("walk");
+            Anim.Play("run");
             CamPost.transform.SetParent(null);
             transform.Rotate(new Vector3(0, 5.0f, 0));
             CamPost.transform.SetParent(transform);
@@ -50,16 +50,22 @@ public class PlayerController : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.A))
             {
-                Anim.SetTrigger("walk");
+                Anim.Play("run");
                 CamPost.transform.SetParent(null);
                 transform.Rotate(new Vector3(0, -5.0f, 0));
                 CamPost.transform.SetParent(transform);
+                
             }
         }
         
         Cam.transform.position = Vector3.Lerp(Cam.transform.position, CamPost.transform.position, 0.1f);
 
-        
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            Anim.Play("run");
+            transform.Translate(new Vector3(0, 0, 0.04f));
+        }
+
     }
 
    
