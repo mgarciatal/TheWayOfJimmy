@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -348,7 +349,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 07d69ce4a98bc6bb9d8730614c21369e
+      Hash: 113a52b40cc51631041a713a3bda3815
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerControl
@@ -486,7 +487,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: d024e9ecaa005f8ec6fb9e2319bbc539
+      Hash: ee838ca969dc5e2e176457029188d5fb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Story
@@ -696,7 +697,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: e849c6f06f7a5dc796e2b00a046ebbcb
+      Hash: 2867c25d383c4e7c53453a05028041c8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
