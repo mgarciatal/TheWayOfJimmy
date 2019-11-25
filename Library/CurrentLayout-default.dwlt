@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 581, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+  m_MinSize: {x: 583, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 1
-  controlID: 82
+  controlID: 32
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 581, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+  m_MinSize: {x: 583, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 83
+  controlID: 33
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 84
+  controlID: 34
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 85
+  controlID: 35
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,8 +290,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -364,9 +364,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 70210400
-      m_LastClickedID: 270704
-      m_ExpandedIDs: 7448fdfff248fdff2249fdff5c7afdff647afdff60a8fdff32affdff62affdff6caffdff0eddfdffaae7fdffdee7fdff84e8fdff2616feff864efeffd07dfeffd4c0feff5cf0feff9622ffff8050ffff2088ffff76c9ffff68fbffff404b00001e6d00007e77000072d000002a44010052440100d602020064030200b2fd020044220400
+      m_SelectedIDs: cc390000
+      m_LastClickedID: 14796
+      m_ExpandedIDs: 68fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -600,11 +600,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.06295686, y: -0.005384767, z: 0.00036819975, w: 0.9980286}
     speed: 2
-    m_Value: {x: 0.06295517, y: -0.0053846226, z: 0.00036818988, w: 0.9980018}
+    m_Value: {x: -0.06295686, y: 0.005384767, z: -0.00036819975, w: -0.9980285}
   m_Size:
-    m_Target: 2473.076
+    m_Target: 2527.3772
     speed: 2
-    m_Value: 2473.076
+    m_Value: 2646.4683
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -750,20 +750,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Textures
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\mique\OneDrive\Escritorio\The Way Of Jimmy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 82}
-    m_SelectedIDs: de300000
-    m_LastClickedID: 12510
-    m_ExpandedIDs: 00000000202d00006e2d0000dc2d00009e33000000ca9a3b
+    scrollPos: {x: 0, y: 62}
+    m_SelectedIDs: a2310000
+    m_LastClickedID: 12706
+    m_ExpandedIDs: 000000001e2d00006c2d0000de2d0000ac33000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -791,7 +791,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000202d00006e2d0000dc2d00009e33000044340000
+    m_ExpandedIDs: 000000001e2d00006c2d0000de2d0000ac330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
