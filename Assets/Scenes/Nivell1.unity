@@ -9121,7 +9121,7 @@ GameObject:
   - component: {fileID: 274713086}
   - component: {fileID: 274713085}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Panel_Controls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16004,6 +16004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a79354ca17af8f438fec73e3c68fecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  temps_start: 0
+  temps_end: 12
 --- !u!1001 &472561432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54735,7 +54737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.047169805, g: 0.045612313, b: 0.045612313, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -54743,7 +54745,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 25
-    m_FontStyle: 0
+    m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
