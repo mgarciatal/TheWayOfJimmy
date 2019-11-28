@@ -28,6 +28,7 @@ public class KO : MonoBehaviour
 
             Time.timeScale = 0;
             AudioListener.volume = 0;
+            
         }
     }
 }

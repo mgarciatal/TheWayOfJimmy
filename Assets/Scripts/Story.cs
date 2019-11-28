@@ -23,7 +23,7 @@ public class Story : MonoBehaviour
     {
         if (other.gameObject.tag == "Item")
         {
-            clipboard.GetComponent<Animator> ().Play("pickup");
+            /**clipboard.GetComponent<Animator> ().Play("pickup");**/
             Canvas_Lore.enabled = true;
             Destroy(other.gameObject);
 

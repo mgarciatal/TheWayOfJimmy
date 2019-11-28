@@ -14,15 +14,16 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+       
     }
 
-    public void CargarNivel(string pNombreNivel)
+    public void CargarNivel()
     {
-        SceneManager.LoadScene(pNombreNivel);
+        
+        SceneManager.LoadScene("Nivell1", LoadSceneMode.Single);
     }
 
-
+   
 
     public void quit()
     {
