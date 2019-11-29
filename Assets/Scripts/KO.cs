@@ -29,10 +29,13 @@ public class KO : MonoBehaviour
 
             Time.timeScale = 0;
             AudioListener.volume = 0;
-            
+            /**
             SceneManager.LoadScene("Nivell1");
             Time.timeScale = 1f;
+       
             AudioListener.volume = 1;
+    **/
+   
             
         }
 

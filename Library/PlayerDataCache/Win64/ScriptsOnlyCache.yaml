@@ -176,6 +176,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11380}
     - Class: 114
       Script: {instanceID: 11400}
+    - Class: 114
+      Script: {instanceID: 18296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

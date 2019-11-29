@@ -22,6 +22,7 @@ public class LevelManager : MonoBehaviour
         
         SceneManager.LoadScene("Nivell1");
         Time.timeScale = 1f;
+        AudioListener.volume = 1;
     }
 
    
