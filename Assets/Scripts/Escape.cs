@@ -30,22 +30,6 @@ public class Escape : MonoBehaviour
 
         }
     }
-
-    public void CargarNivel(string pNombreNivel)
-    {
-        SceneManager.LoadScene(pNombreNivel);
-    }
-
-    public void quit()
-    {
-        Debug.Log("El joc s'està tancant");
-        Application.Quit();
-    }
-
-    public void so()
-    {
-        AudioListener.volume = 0;
-    }
-
+   
 }
 

@@ -20,7 +20,8 @@ public class LevelManager : MonoBehaviour
     public void CargarNivel()
     {
         
-        SceneManager.LoadScene("Nivell1", LoadSceneMode.Single);
+        SceneManager.LoadScene("Nivell1");
+        Time.timeScale = 1f;
     }
 
    
