@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Animation_Test
+    - Controls
     - EnemyController
     - Escape
     - Item
@@ -20,7 +21,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -66,19 +66,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9678}
     - Class: 114
-      Script: {instanceID: 9826}
+      Script: {instanceID: 9828}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 10244}
+      Script: {instanceID: 10246}
     - Class: 114
-      Script: {instanceID: 10584}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 11030}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11330}
     - Class: 114
-      Script: {instanceID: 11380}
+      Script: {instanceID: 11382}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,41 +143,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9678}
     - Class: 114
-      Script: {instanceID: 9826}
+      Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9828}
     - Class: 114
-      Script: {instanceID: 10154}
+      Script: {instanceID: 9868}
     - Class: 114
-      Script: {instanceID: 10208}
+      Script: {instanceID: 10156}
     - Class: 114
-      Script: {instanceID: 10244}
+      Script: {instanceID: 10210}
     - Class: 114
-      Script: {instanceID: 10464}
+      Script: {instanceID: 10246}
     - Class: 114
-      Script: {instanceID: 10584}
+      Script: {instanceID: 10466}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10586}
     - Class: 114
-      Script: {instanceID: 10920}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 11024}
+      Script: {instanceID: 10922}
     - Class: 114
-      Script: {instanceID: 11030}
+      Script: {instanceID: 11026}
     - Class: 114
-      Script: {instanceID: 11112}
+      Script: {instanceID: 11032}
     - Class: 114
-      Script: {instanceID: 11252}
+      Script: {instanceID: 11114}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11254}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11380}
+      Script: {instanceID: 11330}
     - Class: 114
-      Script: {instanceID: 11400}
+      Script: {instanceID: 11382}
     - Class: 114
-      Script: {instanceID: 18296}
+      Script: {instanceID: 11402}
+    - Class: 114
+      Script: {instanceID: 18320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -241,6 +243,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 918c3905f5cefbd29e334c21727ecb35
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Controls
   - hash:
       serializedVersion: 2
       Hash: 72712369a7c681ad84fc255a5ec0b333

@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\amusedART\StoneMonster\Script\Animation_Test.cs" />
     <Compile Include="Assets\Puasa.cs" />
+    <Compile Include="Assets\Scripts\Controls.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Escape.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
