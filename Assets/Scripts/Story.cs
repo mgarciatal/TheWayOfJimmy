@@ -5,7 +5,7 @@ using UnityEngine;
 public class Story : MonoBehaviour
 
 {
-    public Canvas Canvas_Lore;
+    public Canvas Canvas_Item;
     public Animator clipboard;
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class Story : MonoBehaviour
         if (other.gameObject.tag == "Item")
         {
             /**clipboard.GetComponent<Animator> ().Play("pickup");**/
-            Canvas_Lore.enabled = true;
+            Canvas_Item.enabled = true;
             Destroy(other.gameObject);
 
         }

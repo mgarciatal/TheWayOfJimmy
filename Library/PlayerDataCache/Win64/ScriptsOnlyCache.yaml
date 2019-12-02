@@ -178,8 +178,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11382}
     - Class: 114
       Script: {instanceID: 11402}
-    - Class: 114
-      Script: {instanceID: 18320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -497,7 +495,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: ee838ca969dc5e2e176457029188d5fb
+      Hash: 3fbdc3f4ab22df456af33be6a410dd87
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Story
