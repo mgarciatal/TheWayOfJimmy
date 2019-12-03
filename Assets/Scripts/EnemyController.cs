@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         towardsTarget = targetPosition - transform.position;
-        if (towardsTarget.magnitude < 0.25f)
+        if (towardsTarget.magnitude < 0.50f)
         RecalculateTargetPosition();
 
         Quaternion towardsTargetRotation = Quaternion.LookRotation(towardsTarget, Vector3.up);
