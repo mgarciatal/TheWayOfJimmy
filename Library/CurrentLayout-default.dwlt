@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 1
-  controlID: 17815
+  controlID: 5799
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 17816
+  controlID: 5800
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 17817
+  controlID: 5801
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 17818
+  controlID: 5802
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -407,9 +407,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e0140c00
-      m_LastClickedID: 791776
-      m_ExpandedIDs: a419feffd619feffe019feff8247feff5a48feff8a48feff3049feffd276feff6a8bfeff9c8bfeff428cfeffe4b9feff60f2fefff821ffffc84dfffffa4dffffa04effff427cffff8280ffffb280ffff5881fffffaaeffff74fbffff5a380000e8390000fc4100005a420000b2130300f43a0400ba3d04003c6d040026e607007cf3070078120800de430900c84d0900ba7d0900
+      m_SelectedIDs: 2020ffff
+      m_LastClickedID: -57312
+      m_ExpandedIDs: 4620ffff3c6bffff0499ffff3cfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -627,9 +627,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 902.22675, y: 574.8423, z: 1600.9808}
+    m_Target: {x: 786.8278, y: 792.9498, z: 1609.594}
     speed: 2
-    m_Value: {x: 902.22675, y: 574.8423, z: 1600.9808}
+    m_Value: {x: 786.8278, y: 792.9498, z: 1609.594}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -660,11 +660,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.020997105, y: -0.0023966164, z: 0.0001010647, w: 0.99980885}
     speed: 2
-    m_Value: {x: -0.020997105, y: 0.0023966164, z: -0.0001010647, w: -0.99980885}
+    m_Value: {x: 0.020996429, y: -0.0023965393, z: 0.00010106145, w: 0.99977666}
   m_Size:
-    m_Target: 2773.4985
+    m_Target: 3038.4802
     speed: 2
-    m_Value: 2773.4985
+    m_Value: 3038.4802
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -729,20 +729,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Textures
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\mique\OneDrive\Escritorio\The Way Of Jimmy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 82}
-    m_SelectedIDs: ac310000
-    m_LastClickedID: 12716
-    m_ExpandedIDs: 00000000202d00006e2d0000e82d000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 263a0000
+    m_LastClickedID: 14886
+    m_ExpandedIDs: 0000000062330000b43300002e34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -770,7 +770,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000202d00006e2d0000e82d000000ca9a3b
+    m_ExpandedIDs: 0000000062330000b43300002e34000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000523000001434000000000000d0340000944a00004c340000b4300000b29e0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -889,4 +889,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 34
