@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+
 
 public class Cronometre : MonoBehaviour
 {
@@ -12,11 +13,11 @@ public class Cronometre : MonoBehaviour
     [Range(0.0f , 60.0f)]
     public float EscaladaDeTemps = 1;
 
-    public Text Textmeu;
+    private TextMeshProUGUI textmenu;
     private float tempsframeScale = 0f;
     private float tempsSegons = 0f;
-    private float EscalaPausada, escalainicial;
-    private bool pausa = false;
+    private float escalainicial;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class Cronometre : MonoBehaviour
 
         
         //Agafar el component text
-        Textmeu = GetComponent<Text>();
+        textmenu = GetComponent<TextMeshProUGUI>();
 
         //Inicializar la variable de temps per frame
         tempsSegons = tempsInicial;
@@ -44,6 +45,7 @@ public class Cronometre : MonoBehaviour
         tempsframeScale = Time.deltaTime * EscaladaDeTemps;
         //Acumulació del temps per mostrar-lo desprès
         tempsSegons += tempsframeScale;
+
         ActualizarRellotge(tempsSegons);
     }
         public void ActualizarRellotge (float tempsSegons)
@@ -63,7 +65,7 @@ public class Cronometre : MonoBehaviour
         textrellotge = minuts.ToString("00") + ":" + segonds.ToString("00");
 
         //Pasar el valor al objecte UI
-        Textmeu.text = textrellotge;
+        textmenu.text = textrellotge;
 
         }
         
