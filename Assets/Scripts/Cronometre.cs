@@ -13,10 +13,11 @@ public class Cronometre : MonoBehaviour
     [Range(0.0f , 60.0f)]
     public float EscaladaDeTemps = 1;
 
-    private TextMeshProUGUI textmenu;
+    private TextMeshProUGUI cronometre;
     private float tempsframeScale = 0f;
-    private float tempsSegons = 0f;
+    public float tempsSegons = 0f;
     private float escalainicial;
+    
    
 
     // Start is called before the first frame update
@@ -28,7 +29,7 @@ public class Cronometre : MonoBehaviour
 
         
         //Agafar el component text
-        textmenu = GetComponent<TextMeshProUGUI>();
+        cronometre = GetComponent<TextMeshProUGUI>();
 
         //Inicializar la variable de temps per frame
         tempsSegons = tempsInicial;
@@ -65,9 +66,10 @@ public class Cronometre : MonoBehaviour
         textrellotge = minuts.ToString("00") + ":" + segonds.ToString("00");
 
         //Pasar el valor al objecte UI
-        textmenu.text = textrellotge;
+        cronometre.text = textrellotge;
 
         }
         
+   
     
 }

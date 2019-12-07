@@ -28,6 +28,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -376,7 +377,7 @@ ScriptsOnlyBuild:
     className: Demo
   - hash:
       serializedVersion: 2
-      Hash: 5b0ad05e5e9922a7170ff42a0554e036
+      Hash: 698b5d6537a7566b3acce0c56cf91dca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Cronometre
@@ -640,7 +641,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 8e1991f0f32f0d9299d740b1db25b317
+      Hash: 1b05e6399e537402cf3fbeeec5874d42
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Meta
