@@ -68,8 +68,6 @@ public class Cronometre : MonoBehaviour
         //Pasar el valor al objecte UI
         cronometre.text = textrellotge;
 
-        }
-        
-   
+        }   
     
 }

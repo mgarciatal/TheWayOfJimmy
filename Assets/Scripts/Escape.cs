@@ -8,7 +8,7 @@ public class Escape : MonoBehaviour
 
     private bool active;
     Canvas canvas;
-    private bool musica;
+   
 
 
     

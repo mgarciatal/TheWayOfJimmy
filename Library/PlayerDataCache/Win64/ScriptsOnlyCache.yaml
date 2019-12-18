@@ -35,6 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
@@ -182,6 +183,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10614}
     - Class: 114
       Script: {instanceID: 10658}
+    - Class: 114
+      Script: {instanceID: 10820}
     - Class: 114
       Script: {instanceID: 10824}
     - Class: 114
@@ -641,7 +644,7 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 1b05e6399e537402cf3fbeeec5874d42
+      Hash: 0348cf8de96992813def06af1d6e5b7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Meta
