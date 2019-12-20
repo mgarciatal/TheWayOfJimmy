@@ -6,21 +6,33 @@ using UnityEngine.UI;
 public class Meta : MonoBehaviour
 {
     public Canvas Win;
+
+    public Story story;
+
+
     private int numeroEstrellas;
     public GameObject estrella;
     public GameObject panelEstrellas;
+    public GameObject Document; 
     [Header("Temps en Segons")]
     public float temps1 = 0f;
     public float temps2 = 0f;
     public float temps3 = 0f;
     [Header("Temps de Prova")]
     public float tempsSegons = 0f;
+    public bool colisio = false;
 
+    
+   
     private Cronometre cronometre;
+
     // Start is called before the first frame update
     void Start()
     {
         cronometre = FindObjectOfType<Cronometre>();
+        
+        
+
         Win.enabled = false;
 
     }
@@ -37,9 +49,10 @@ public class Meta : MonoBehaviour
         {
 
             GenerarEstrelles();
-
-            Time.timeScale = 0;
             
+            Time.timeScale = 0;
+            GenerarDocument();
+
         }
     }
  
@@ -70,5 +83,22 @@ public class Meta : MonoBehaviour
         }
        
     }
+
+    public void GenerarDocument()
+    {
+        if (story.colisio == true) 
+        {
+            Document.SetActive(true);
+        }
+
+        else
+        {
+            Document.SetActive(false); 
+
+        }
+
+        
+    }
+        
  
 }

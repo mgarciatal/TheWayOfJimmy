@@ -20925,7 +20925,7 @@ GameObject:
   - component: {fileID: 639320094}
   - component: {fileID: 639320093}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: 'Panel_Document '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45412,7 +45412,7 @@ GameObject:
   - component: {fileID: 1351801680}
   - component: {fileID: 1351801679}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46523,7 +46523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Canvas_Item: {fileID: 276761435}
-  clipboard: {fileID: 0}
+  colisio: 0
 --- !u!136 &1389583852
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -68701,7 +68701,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012735212}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -69925,13 +69925,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Win: {fileID: 2012735215}
+  story: {fileID: 1389583851}
   estrella: {fileID: 3767707811013593747, guid: 877a93c2a44646a4e8aca3fe206b852c,
     type: 3}
   panelEstrellas: {fileID: 763189114}
+  Document: {fileID: 639320091}
   temps1: 91
   temps2: 61
   temps3: 31
   tempsSegons: 10
+  colisio: 0
 --- !u!1001 &2055222982
 PrefabInstance:
   m_ObjectHideFlags: 0

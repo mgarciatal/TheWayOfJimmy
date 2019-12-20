@@ -6,7 +6,7 @@ public class Story : MonoBehaviour
 
 {
     public Canvas Canvas_Item;
-    public Animator clipboard;
+    public bool colisio = false; 
     // Start is called before the first frame update
     void Start()
     {
@@ -19,13 +19,14 @@ public class Story : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Item")
         {
-            /**clipboard.GetComponent<Animator> ().Play("pickup");**/
+            
             Canvas_Item.enabled = true;
             Destroy(other.gameObject);
+            colisio = true; 
 
         }
 
