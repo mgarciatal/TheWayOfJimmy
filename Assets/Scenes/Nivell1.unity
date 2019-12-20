@@ -20925,7 +20925,7 @@ GameObject:
   - component: {fileID: 639320094}
   - component: {fileID: 639320093}
   m_Layer: 5
-  m_Name: 'Panel_Document '
+  m_Name: Panel_Document
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69929,7 +69929,6 @@ MonoBehaviour:
   estrella: {fileID: 3767707811013593747, guid: 877a93c2a44646a4e8aca3fe206b852c,
     type: 3}
   panelEstrellas: {fileID: 763189114}
-  Document: {fileID: 639320091}
   temps1: 91
   temps2: 61
   temps3: 31

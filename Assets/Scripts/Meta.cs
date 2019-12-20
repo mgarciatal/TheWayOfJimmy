@@ -13,7 +13,7 @@ public class Meta : MonoBehaviour
     private int numeroEstrellas;
     public GameObject estrella;
     public GameObject panelEstrellas;
-    public GameObject Document; 
+    private Image Document; 
     [Header("Temps en Segons")]
     public float temps1 = 0f;
     public float temps2 = 0f;
@@ -29,9 +29,10 @@ public class Meta : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Win.enabled = true;
         cronometre = FindObjectOfType<Cronometre>();
-        
-        
+        Document = Win.gameObject.transform.Find("Panel_Document").GetComponent<Image>();
+
 
         Win.enabled = false;
 
@@ -88,12 +89,12 @@ public class Meta : MonoBehaviour
     {
         if (story.colisio == true) 
         {
-            Document.SetActive(true);
+            Document.enabled = true;
         }
 
         else
         {
-            Document.SetActive(false); 
+            Document.enabled = false; 
 
         }
 
