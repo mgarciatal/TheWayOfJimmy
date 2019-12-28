@@ -36,7 +36,7 @@ public class KO : MonoBehaviour
             AudioListener.volume = 0;
             Text.enabled = false;
             Controls.enabled = false;
-            //Reiniciar();
+            
         }
         
         
